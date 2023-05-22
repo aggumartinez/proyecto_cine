@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Secular+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 200;
+    background: rgb(80,11,40);
+    background: linear-gradient(62deg, rgba(80,11,40,1) 20%, rgba(226,28,52,1) 100%);
+    position: relative;
+  }
+
+.logo{
+    height: 150px;
+    width: 240px;
+    margin-right: 40px;
+    object-fit: cover;
+}
+.navbar {
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.container-fluid{
+    background-color: #ffff;
+}
+
+.img-carousel{
+    width: 70vw;
+    height: 70vh;
+    padding-top: 30px;
+}
+
+.title{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.info-importante{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.subtitle{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 200;
+    font-size: 25px;
+    color: #ffff;
+    text-align:left;
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+
+}
