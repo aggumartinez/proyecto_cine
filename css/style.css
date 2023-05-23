@@ -55,9 +55,73 @@ body {
     font-weight: 200;
     font-size: 25px;
     color: #ffff;
-    text-align:left;
+    text-align:center;
     margin-top: 35px;
     margin-left: 40px;
     margin-bottom: 35px;
 
 }
+
+.contenedor-cartelera{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: auto;
+    margin-bottom: 30px;
+    
+}
+.contenedor-cartelera img{
+    width: 20%;
+    height: 600px;
+    margin: 15px;
+    padding-left: 20px;
+    
+}
+.poster:hover {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+  }
+  
+  .logo-footer{
+    height: 80px;
+    width: 140px;
+    align-items: center;
+  }
+
+  .footer{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffff;
+    text-align:center;
+    text-decoration: none;
+    
+  }
+
+  .svg{
+    color: #ffff;
+  }
+
+  
