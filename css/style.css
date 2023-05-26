@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:wght@300&family=Secular+One&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,7 +76,7 @@ body {
     
 }
 .contenedor-cartelera img{
-    width: 20%;
+    width: 400px;
     height: 600px;
     margin: 15px;
     padding-left: 20px;
@@ -130,6 +134,7 @@ body {
   .films{
     height: 500px;
     width: 800px;
+    margin-bottom: 40px;
   }
 
  .nav-days{
@@ -139,6 +144,21 @@ body {
 
  .tab-pane{
   color: #ffff;
+ }
+
+ .text-film{
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  margin-right: 80px;
+  text-align: justify;
+ }
+
+ .btn{
+  color: #ffff;
+  background-color: black;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+
  }
  
  
