@@ -116,12 +116,29 @@ body {
     font-size: 20px;
     color: #ffff;
     text-align:center;
-    text-decoration: none;
-    
+    text-decoration: none; 
   }
 
-  .svg{
+  .title-timetable{
+    font-family: 'Bruno Ace', cursive;
+    font-weight: 200;
+    font-size: 20px;
     color: #ffff;
+    text-align:left;
   }
 
-  
+  .films{
+    height: 500px;
+    width: 800px;
+  }
+
+ .nav-days{
+  text-decoration: none;
+  color: #ffff;
+ } 
+
+ .tab-pane{
+  color: #ffff;
+ }
+ 
+ 
