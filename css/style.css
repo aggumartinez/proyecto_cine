@@ -160,6 +160,15 @@ body {
   font-family: 'Poppins', sans-serif;
  }
 
- 
+ .promo-market{
+  height: 600px;
+  width: 1650px;
+  margin-bottom: 60px;
+ }
+
+ .combos{
+  height: 400px;
+  width: 400px;
+ }
  
  
