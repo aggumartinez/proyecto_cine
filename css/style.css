@@ -170,5 +170,15 @@ body {
   height: 400px;
   width: 400px;
  }
+
+ .btn-market{
+  color: #ffff;
+  background-color: black;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 300px;
+  
+ }
  
  
